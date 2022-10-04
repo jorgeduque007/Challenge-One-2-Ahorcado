@@ -1,0 +1,113 @@
+/*Encabezado y logo*/
+
+body{
+       
+    width: 100%;
+    height: 100vh;
+    background: #77A1D3;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #E684AE, #79CBCA, #77A1D3);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #E684AE, #79CBCA, #77A1D3); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    font-family: 'Poppins', sans-serif;
+}
+
+.encabezado{
+    
+    height: 80px;
+    width: 100%;
+    position: absolute; /*/////////////////////////////////////////////////////*/
+}
+
+.logo{
+    text-align: left;
+    margin-top: 45px;
+}
+
+/*Body*/
+.pantalla-inicial{
+    margin-top: 188px;
+    margin-bottom: 80px;
+    width: 100%;
+    text-align: center;
+}
+
+.boton{
+    width: 100%;
+    max-width: 270px;
+    min-width: 120px;
+    border-radius: 24px;
+    padding: 15px;
+    margin: 10px;
+    font-weight: bold; /*Letras en negrilla*/
+}
+
+.boton-color{
+    background: #77A1D3;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #77A1D3, #79CBCA, #E684AE);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #77A1D3, #79CBCA, #E684AE); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+    color: #0A3871;
+}
+
+.boton-neutro{
+    background: #77A1D3;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #77A1D3, #79CBCA, #E684AE);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #77A1D3, #79CBCA, #E684AE); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+    color: #0A3871;
+}
+
+.canvas{
+    margin-top: 65px;
+    width: 100%;
+    max-width: 400px;
+    height: 450px;
+    border-radius: 3%;
+    background-color: #e2e8f3;
+}
+
+.textarea-palabra{
+    margin-top: 65px;
+    font-family: 'Bitter', serif;
+    width: 80%;
+    height: 410px;
+    padding: 10px 10px;
+    font-size: 25px;
+    background-color: #F3F5FC;
+    border: #F3F5FC;
+    resize: none;
+    outline: none;
+}
+
+.juego-en-proceso{
+    width: 100%;
+    text-align: center;
+}
+
+.agregando-palabra-nueva{
+    width: 100%;
+    text-align: center;
+}
+
+.vector-img{
+    padding: 0 0 1% 0;
+}
+
+/*Pie de pagina*/
+.pie-pagina{
+    margin: 1m 0 0 0;
+    padding: 30px 0;
+    font-size: 13px;
+    
+    text-align: center;
+    font-weight: bold;
+    background: #77A1D3;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #77A1D3, #79CBCA, #E684AE);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #77A1D3, #79CBCA, #E684AE); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+    color: #0A3871;
+}
+
+.pgn{
+    width: 40px;
+    margin: 0 15px;
+}
